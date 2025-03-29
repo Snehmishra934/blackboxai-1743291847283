@@ -1,0 +1,49 @@
+/* Custom styles to complement Tailwind */
+body {
+    background-attachment: fixed;
+}
+
+/* Animation for countdown */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Image hover effects */
+.devi-image {
+    transition: transform 0.3s ease;
+}
+
+.devi-image:hover {
+    transform: scale(1.05);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #4a044e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c084fc;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a855f7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .devi-card {
+        padding: 1rem;
+    }
+}
