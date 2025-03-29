@@ -1,2 +1,3 @@
-# blackboxai-1743291847283
-Built by https://www.blackbox.ai
+# HAPPY NAVRATRI TO ALL
+create by Sneh mishra
+follow us on instagram = devil_eye091 
